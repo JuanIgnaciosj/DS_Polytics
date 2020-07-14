@@ -1,0 +1,11 @@
+# R como calculadora.
+
+2+3
+5-1
+9/3
+pi # Constante Pi
+exp(3)
+log(10)
+log(23, base=3)
+sqrt(9)
+abs(-3)

@@ -1,0 +1,12 @@
+En la creación del ETL se encontró que la tabla de candidatos se encontraba incompleta en comparación con la tabla
+de votos. Especificamente ocurrió que 3 candidatos correspondientes a los procesos presidenciales del año 2017
+no se encontraban indexados en la tabla candidatos, estos correspondian a los siguientes:
+
+	2550, Sebastian Pinera Echenique.
+	2551, Beatriz Sanchez Munoz.
+	2552, Eduardo Artes Brichetti.
+
+Los nombres mencionados anteriormente fueron agregados de manera manual al final de la tabla, dado que contaban con
+una indizacion determinada dentro de las tablas correspondiente al proceso eleccionario.
+
+**NOTA: El ingreso manual se realizó eliminando caracteres especiales como acentos o letras con caracteres especiales (ñ)
